@@ -9,4 +9,4 @@ An app to start fitness, written in C++
 ---
 
 ## Todo
-[ ] make a better name for the main program
+- [ ] make a better name for the main program
