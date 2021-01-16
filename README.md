@@ -8,5 +8,5 @@ An app to start fitness, written in C++
 
 ---
 
-## Todo
+## todo
 - [ ] make a better name for the main program
