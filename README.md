@@ -74,8 +74,11 @@ group of strangers able to see your personal fitness level.
 - [ ] map username to id. id to username is easy but not the other way around
 for now.
 - [ ] write up friend system
+  - [x] make friends
+  - [ ] interpret meaning of return codes
 - [ ] write up group system
 - [ ] write client-side application
+- [ ] write server-side application
 
 #### long term
 
@@ -83,4 +86,4 @@ for now.
   - [ ] through the shell
   - [ ] over a network
 - [ ] make it more secure
-- [ ] create GUI
+- [ ] create GUI - unlikely to be finished by qualifiers
