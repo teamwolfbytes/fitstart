@@ -66,6 +66,7 @@ group of strangers able to see your personal fitness level.
 
 #### long term
 
+- [ ] make wiki
 
 ### Programming
 
