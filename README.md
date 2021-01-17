@@ -27,6 +27,17 @@ and type in the username (currently we have no GUI to do this), and the client
 will send the server a "friend this user" message. The server will take this
 message and forward it to the user to be befriended.
 
+Let's use an analogy. Imagine you operate a bank to store virtual popsicles.
+People can call you, and say, "Please add 5 popsicles from my account to my
+friend's account." You are the server, and the people are the clients. They can
+have a variety of requests, but if one of them is not allowed, then the server
+(you) can choose to not follow the request. One request that might not be
+allowed is "Take 10 popsicles from everyone else and add them to my account."
+This should not be allowed, so you can decline the request. By using this model,
+we can decline illegitimate requests. On the other hand, if every client could
+just walk up to the bank and do whatever they want, that wouldn't be very nice
+for anyone who's affected.
+
 ### Pros of the client/server model
 
 Using this server/client model, we can make sure that users are legitimately
@@ -38,9 +49,9 @@ By using one central server, we would have access to all user data. This is a
 cause for worry, since most of the time it's not really desirable to have a
 group of strangers able to see your personal fitness level.
 
-Open source stuff
+### Proof of concept of the client/server model
 
-How friending and grouping works
+
 
 ## Todo
 
@@ -51,6 +62,7 @@ How friending and grouping works
 - [ ] write a good summary
 - [ ] finish prototype program
 - [ ] polish example GUI
+- [ ] finish up proof of concept
 
 #### long term
 
@@ -70,4 +82,5 @@ for now.
 - [ ] make client and server interact
   - [ ] through the shell
   - [ ] over a network
+- [ ] make it more secure
 - [ ] create GUI
