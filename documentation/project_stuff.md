@@ -9,7 +9,7 @@ According to the United States Department of Health and Human Services “Only
 about one in five homes [in the US] have parks within a half-mile, and about the
 same number have a fitness or recreation center within that distance.” They also
 said that “More than 80% of adults [in the US] do not meet the guidelines for bo
-th aerobic and muscle-strengthening activities." [^1]
+th aerobic and muscle-strengthening activities." [1]
 
 Most adults either can’t fit in enough time in the day, or if they do they can’t
 get to the right space or both.
@@ -39,4 +39,4 @@ additional pets. If you don’t exercise, your pet destroys some of your addons.
 This encourages people who may not be competitive to do their exercise.
 
 # Bibliography
-[^1]: [Department of Health & Human Services](https://www.hhs.gov/fitness/resource-center/facts-and-statistics/index.html)
+[1]: [Department of Health & Human Services](https://www.hhs.gov/fitness/resource-center/facts-and-statistics/index.html)
