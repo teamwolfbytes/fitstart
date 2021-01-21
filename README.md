@@ -1,7 +1,7 @@
 # fitstart
 
-An app to start fitness, written in C++
-
+An app to start fitness, written in C++  
+Created for the Innovation Project in the FIRST® LEGO® League Challenge
 
 ## What it does
 
@@ -66,6 +66,7 @@ group of strangers able to see your personal fitness level.
 
 #### long term
 
+- [ ] make wiki
 
 ### Programming
 
@@ -74,8 +75,11 @@ group of strangers able to see your personal fitness level.
 - [ ] map username to id. id to username is easy but not the other way around
 for now.
 - [ ] write up friend system
+  - [x] make friends
+  - [ ] interpret meaning of return codes
 - [ ] write up group system
 - [ ] write client-side application
+- [ ] write server-side application
 
 #### long term
 
@@ -83,4 +87,4 @@ for now.
   - [ ] through the shell
   - [ ] over a network
 - [ ] make it more secure
-- [ ] create GUI
+- [ ] create GUI - unlikely to be finished by qualifiers
