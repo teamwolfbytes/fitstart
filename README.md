@@ -13,9 +13,7 @@ Uses the traditional client/server model. The end result is to have a server
 that stores all user data, and have users use a client to access it and change
 it.
 
-In the [src](https://github.com/teamwolfbytes/fitstart/tree/main/src) directory,
-you will find two folders named server and client. Inside those directories, you
-will find two programs named `server.cpp` and `client.cpp`. Those files are the
+There are two files named `server.cpp` and `client.cpp`. Those files are the
 source for the server-side application and the client-side application.
 
 The server program will listen for commands like "make a user",
@@ -49,13 +47,11 @@ By using one central server, we would have access to all user data. This is a
 cause for worry, since most of the time it's not really desirable to have a
 group of strangers able to see your personal fitness level.
 
-### Proof of concept of the client/server model
-
 
 
 ## Todo
 
-### General project
+### General
 
 #### short term
 
@@ -63,6 +59,7 @@ group of strangers able to see your personal fitness level.
 - [ ] finish prototype program
 - [ ] polish example GUI
 - [ ] finish up proof of concept
+- [ ] finish up binder
 
 #### long term
 
