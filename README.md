@@ -13,8 +13,10 @@ Uses the traditional client/server model. The end result is to have a server
 that stores all user data, and have users use a client to access it and change
 it.
 
-There are two files named `server.cpp` and `client.cpp`. Those files are the
-source for the server-side application and the client-side application.
+There are two files named [`server.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/server.cpp)
+and [`client.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/client.cpp).
+Those files are the source files for the server-side application and the
+client-side application.
 
 The server program will listen for commands like "make a user",
 "friend this user", etc. These commands are sent by the client-side application.
@@ -24,17 +26,6 @@ example, if a user wants to make a friend with someone, they can click a button
 and type in the username (currently we have no GUI to do this), and the client
 will send the server a "friend this user" message. The server will take this
 message and forward it to the user to be befriended.
-
-Let's use an analogy. Imagine you operate a bank to store virtual popsicles.
-People can call you, and say, "Please add 5 popsicles from my account to my
-friend's account." You are the server, and the people are the clients. They can
-have a variety of requests, but if one of them is not allowed, then the server
-(you) can choose to not follow the request. One request that might not be
-allowed is "Take 10 popsicles from everyone else and add them to my account."
-This should not be allowed, so you can decline the request. By using this model,
-we can decline illegitimate requests. On the other hand, if every client could
-just walk up to the bank and do whatever they want, that wouldn't be very nice
-for anyone who's affected.
 
 ### Pros of the client/server model
 
@@ -49,34 +40,36 @@ group of strangers able to see your personal fitness level.
 
 
 
-## Todo
+## todo
 
-### General
+### general
 
 #### short term
 
 - [ ] write a good summary
 - [ ] finish prototype program
 - [ ] polish example GUI
-- [ ] finish up proof of concept
 - [ ] finish up binder
 
 #### long term
 
 - [ ] make wiki
 
-### Programming
+### programming
 
 #### short term
 
-- [ ] map username to id. id to username is easy but not the other way around
-for now.
+~~- [ ] map username to id. id to username is easy but not the other way around
+for now.~~ id to be removed
 - [ ] write up friend system
   - [x] make friends
   - [ ] interpret meaning of return codes
 - [ ] write up group system
 - [ ] write client-side application
 - [ ] write server-side application
+- [ ] add username system, remove id
+- [ ] make persistent storage
+- [ ] split up `server.cpp` into multiple components
 
 #### long term
 
