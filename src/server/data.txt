@@ -1,1 +1,2 @@
-username			email								age	xp		friendlist																																																																
+username:email:age:xp:friendlist
+john_doe:john_doe@email.com:30:42:none
