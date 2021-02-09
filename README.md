@@ -13,8 +13,8 @@ Uses the traditional client/server model. The end result is to have a server
 that stores all user data, and have users use a client to access it and change
 it.
 
-There are two files named [`server.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/server.cpp)
-and [`client.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/client.cpp).
+There are two files named [`server.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/server/server.cpp)
+and [`client.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/client/client.cpp).
 Those files are the source files for the server-side application and the
 client-side application.
 
@@ -38,28 +38,30 @@ By using one central server, we would have access to all user data. This is a
 cause for worry, since most of the time it's not really desirable to have a
 group of strangers able to see your personal fitness level.
 
+### Structure of server application
 
+TBA
 
-## todo
+## Todo
 
-### general
+### General
 
-#### short term
+#### Short term
 
 - [ ] write a good summary
 - [ ] finish prototype program
 - [ ] polish example GUI
 - [ ] finish up binder
 
-#### long term
+#### Long term
 
 - [ ] make wiki
 
-### programming
+### Programming
 
-#### short term
+#### Short term
 
-~~- [ ] map username to id. id to username is easy but not the other way around
+~~map username to id. id to username is easy but not the other way around
 for now.~~ id to be removed
 - [ ] write up friend system
   - [x] make friends
@@ -71,7 +73,7 @@ for now.~~ id to be removed
 - [ ] make persistent storage
 - [ ] split up `server.cpp` into multiple components
 
-#### long term
+#### Long term
 
 - [ ] make client and server interact
   - [ ] through the shell
