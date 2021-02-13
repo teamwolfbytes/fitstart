@@ -9,8 +9,7 @@ function get-user
 # find user, get line number, and replace replacee with replacer
 function put-user
 {
-	record=$(grep -Fn "$1" database | cut -d : -f 1)
-	sed -i "$record s/.*/$2/" database
+	grep -Fn "$1" database | cut -d : -f 1 | sed -i "$(cat /dev/stdin) s/.*/$2/" database
 }
 
 read func username replacer
