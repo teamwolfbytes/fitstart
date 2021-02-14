@@ -49,7 +49,6 @@ TBA
 #### Short term
 
 - [ ] write a good summary
-- [ ] finish prototype program
 - [ ] polish example GUI
 - [ ] finish up binder
 
@@ -69,9 +68,9 @@ for now.~~ id to be removed
 - [ ] write up group system
 - [ ] write client-side application
 - [ ] write server-side application
-- [ ] add username system, remove id
-- [ ] make persistent storage
-- [ ] split up `server.cpp` into multiple components
+- [x] add username system, remove id
+- [x] make persistent storage
+- [x] split up `server.cpp` into multiple components
 
 #### Long term
 
