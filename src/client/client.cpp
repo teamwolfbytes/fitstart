@@ -1,40 +1,26 @@
-#include <iostream>
-#include <settings.h>
-#include <new.h>
+#include <cstdio>
+#include <vector>
+#include <string>
+#include "housekeeping.h"
+#include "config.h"
+// #include "new.h"
 
 using namespace std;
 
+int exercise_cmd(vector <string> arg_list)
+{
+	printf("exercise_cmd works\n");
+	return 0;
+}
+
+cmd_struct subcommands[] = {
+	{"config", config_cmd},
+	{"exercise", exercise_cmd},
+};
+
 int main(int argc, char **argv)
 {
-	if (argv[1] == "settings") {
-		if (argv[2] == "change") {
-			if 
-
-	} else if (argv[1] == "new") {
-		// init
-	} else if (argv[1] == "exercise") {
-		// exercise
-	}
-	switch (cmd) {
-	// update name
-	case 'n':
-		cout << "id and name\n";
-		cin >> id >> tmp;
-		update_usrname(users, id, tmp);
-		break;
-	// make friend
-	case 'f':
-		cout << "user id and new friend id\n";
-		cin >> id >> i;
-		make_friend(users, id, i);
-		break;
-	// check friend
-	case 'c':
-		cout << "user id and friend id\n";
-		cin >> id >> i;
-		cout << check_friend(users, id, i) << "\n";
-	}
-	// request exercise
-	case 'e':
-		cout 
+	// copy array of array of C strings (cli args) to vector of strings
+	vector <string> arg_list (argv, argv + argc);
+	run_subcmds(arg_list, subcommands);
 }
