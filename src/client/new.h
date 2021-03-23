@@ -1,4 +1,3 @@
-#include <iostream>
 #include <fstream>
 
 using namespace std;
@@ -25,7 +24,6 @@ void new_profile()
 	cout << "Age: ";
 	cin >> input;
 	profile.append(input);
-	profile.append(":");
 
 	out << profile;
 }
