@@ -3,6 +3,7 @@
 #include <string>
 #include "housekeeping.h"
 #include "config.h"
+#include "exercise.h"
 // #include "new.h"
 
 using namespace std;
