@@ -3,6 +3,21 @@
 An app to start fitness, written in C++  
 Created for the Innovation Project in the FIRST® LEGO® League Challenge
 
+## Installation
+
+## Definitions
+
+"FitStart" is the name of the overall project.  
+`fitstart` is the name of the client-side command-line tool: it's the backbone
+of the app.  
+The GUI binary (if it ever comes into existence) will be called `fitstart_c`
+(as in `fitstart` `client`). This will be a wrapper around the `fitstart`
+binary that just calls the appropriate command when a certain button is
+pressed.
+
+The server is called `fitstart_s` (as in `fitstart` `server`).
+
+## Client vs server
 ## What it does
 
 ### Why is it special?
@@ -67,10 +82,12 @@ for now.~~ id to be removed
   - [ ] interpret meaning of return codes
 - [ ] write up group system
 - [ ] write client-side application
+  - [x] finish framework for interpreting commands
 - [ ] write server-side application
 - [x] add username system, remove id
 - [x] make persistent storage
-- [x] split up `server.cpp` into multiple components
+- [ ] split up `server.cpp` into multiple components
+- [x] create subcommand resolver thing
 
 #### Long term
 
