@@ -17,11 +17,6 @@ pressed.
 
 The server is called `fitstart_s` (as in `fitstart` `server`).
 
-## Client vs server
-## What it does
-
-### Why is it special?
-
 ## How it works
 
 Uses the traditional client/server model. The end result is to have a server
@@ -42,17 +37,6 @@ and type in the username (currently we have no GUI to do this), and the client
 will send the server a "friend this user" message. The server will take this
 message and forward it to the user to be befriended.
 
-### Pros of the client/server model
-
-Using this server/client model, we can make sure that users are legitimately
-earning points and badges.
-
-### Cons of the client/server model
-
-By using one central server, we would have access to all user data. This is a
-cause for worry, since most of the time it's not really desirable to have a
-group of strangers able to see your personal fitness level.
-
 ### Structure of server application
 
 TBA
@@ -65,7 +49,7 @@ TBA
 
 - [ ] write a good summary
 - [ ] polish example GUI
-- [ ] finish up binder
+- [ ] finish up binder: update it to current
 
 #### Long term
 
@@ -76,7 +60,7 @@ TBA
 #### Short term
 
 ~~map username to id. id to username is easy but not the other way around
-for now.~~ id to be removed
+for now.~~ id removed
 - [ ] write up friend system
   - [x] make friends
   - [ ] interpret meaning of return codes
@@ -87,7 +71,6 @@ for now.~~ id to be removed
 - [x] add username system, remove id
 - [x] make persistent storage
 - [ ] split up `server.cpp` into multiple components
-- [x] create subcommand resolver thing
 
 #### Long term
 
