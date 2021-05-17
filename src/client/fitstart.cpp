@@ -2,8 +2,8 @@
 #include <vector>
 #include <string>
 #include "housekeeping.h"
-#include "config.h"
-#include "exercise.h"
+#include "first/config.h"
+#include "first/exercise.h"
 // #include "new.h"
 
 using namespace std;
