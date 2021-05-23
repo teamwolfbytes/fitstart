@@ -4,8 +4,6 @@
 #include <vector>
 #include <string>
 
-using namespace std;
-
 struct fnptr;
 struct cmd_struct;
 fnptr resolve_subcmds(vector <string> arg_list, cmd_struct subcmds[]);

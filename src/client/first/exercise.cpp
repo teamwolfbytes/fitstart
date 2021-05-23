@@ -1,12 +1,12 @@
 #ifndef EXERCISE_H
 #define EXERCISE_H
 
-#include <cstdio>
+#include <iostream>
 #include "housekeeping.h>
 
 int change_cmd(vector <string> arg_list)
 {
-	printf("change_cmd works\n");
+	std::cout << "change_cmd works\n";
 	return 0;
 }
 
@@ -28,7 +28,7 @@ cmd_struct exercise_subcmds[] = {
 
 int exercise_cmd(vector <string> arg_list)
 {
-	printf("exercise_cmd works\n");
+	std::cout << "exercise_cmd works\n";
 	return run_subcmds(arg_list, exercise_subcmds);
 }
 

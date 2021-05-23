@@ -1,11 +1,11 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include <cstdio>
+#include <iostream>
 
 int change_cmd(vector <string> arg_list)
 {
-	printf("change_cmd works\n");
+	std::cout << "change_cmd works\n";
 	return 0;
 }
 
