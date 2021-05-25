@@ -1,9 +1,9 @@
-#ifndef CONFIG_H
-#define CONFIG_H
-
 #include <iostream>
+#include <vector>
+#include "config.h"
+#include "../housekeeping.h"
 
-int change_cmd(vector <string> arg_list)
+int change_cmd(std::vector <std::string> arg_list)
 {
 	std::cout << "change_cmd works\n";
 	return 0;
@@ -23,9 +23,8 @@ cmd_struct config_subcmds[] = {
 // 	cout << "add_friend " << friend_name << "\n";
 // }
 
-int config_cmd(vector <string> arg_list)
+int config_cmd(std::vector <std::string> arg_list)
 {
+	std::cout << "config_cmd works\n";
 	return run_subcmds(arg_list, config_subcmds);
 }
-
-#endif

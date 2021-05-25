@@ -1,20 +1,10 @@
 #include <iostream>
 #include <vector>
-#include <string>
 #include "housekeeping.h"
-#include "first/config.h"
-#include "first/exercise.h"
-// #include "new.h"
+#include "config/config.h"
+#include "exercise.h"
 
-using namespace std;
-
-int exercise_cmd(vector <string> arg_list)
-{
-	printf("exercise_cmd works\n");
-	return 0;
-}
-
-cmd_struct subcmds[] = {
+struct cmd_struct subcmds[] = {
 	{"config", config_cmd},
 	{"exercise", exercise_cmd},
 };
@@ -22,6 +12,6 @@ cmd_struct subcmds[] = {
 int main(int argc, char **argv)
 {
 	// copy array of array of C strings (cli args) to vector of strings
-	vector <string> arg_list (argv, argv + argc);
+	std::vector <std::string> arg_list (argv, argv + argc);
 	run_subcmds(arg_list, subcmds);
 }

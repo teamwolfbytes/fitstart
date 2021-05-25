@@ -1,19 +1,16 @@
-#ifndef EXERCISE_H
-#define EXERCISE_H
-
 #include <iostream>
-#include "housekeeping.h>
+#include <vector>
+#include "exercise.h"
+#include "housekeeping.h"
 
-int change_cmd(vector <string> arg_list)
+int begin_cmd(std::vector <std::string> arg_list)
 {
-	std::cout << "change_cmd works\n";
+	std::cout << "begin_cmd works\n";
 	return 0;
 }
 
-int exercise
-
-cmd_struct exercise_subcmds[] = {
-	{"change", change_cmd},
+struct cmd_struct exercise_subcmds[] = {
+	{"begin", begin_cmd},
 };
 
 // void change_nick(string new_nick)
@@ -26,10 +23,8 @@ cmd_struct exercise_subcmds[] = {
 // 	cout << "add_friend " << friend_name << "\n";
 // }
 
-int exercise_cmd(vector <string> arg_list)
+int exercise_cmd(std::vector <std::string> arg_list)
 {
 	std::cout << "exercise_cmd works\n";
 	return run_subcmds(arg_list, exercise_subcmds);
 }
-
-#endif

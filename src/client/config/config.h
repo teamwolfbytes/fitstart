@@ -1,10 +1,8 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include <cstdio>
-
-int change_cmd(vector <string> arg_list);
-cmd_struct config_subcmds[];
-int config_cmd(vector <string> arg_list);
+int change_cmd(std::vector <std::string> arg_list);
+extern struct cmd_struct config_subcmds[];
+int config_cmd(std::vector <std::string> arg_list);
 
 #endif
