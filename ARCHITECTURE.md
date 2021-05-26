@@ -2,6 +2,7 @@
 
 ## Directory structure
 
+```
 fitstart
 |
 |-LICENSE
@@ -25,3 +26,4 @@ fitstart
   |-technical-doc	<- technical documentation of fitstart
   |
   +-project-doc		<- documentation of the process of our project
+```
