@@ -6,7 +6,7 @@ You might be wondering why this weird resolving system is used instead of a
 simple `case`. The answer is that dealing with a `case` would not be so simple
 when the number of commands grow into a very large amount. Each function only
 existing the function's parent is (at least I feel is) more wieldy than a
-potentially hundreds of lines long `case.`
+potentially hundreds of lines long `case` statement.
 
 A few definitions before we start:
 
