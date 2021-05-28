@@ -28,14 +28,14 @@ and [`client.cpp`](https://www.github.com/teamwolfbytes/fitstart/blob/main/src/c
 Those files are the source files for the server-side application and the
 client-side application.
 
-The server program will listen for commands like "make a user",
-"friend this user", etc. These commands are sent by the client-side application.
-When a user downloads the app and makes a new profile, that will send the "make
-a user" command to the server, and the server will make a new user. For another
-example, if a user wants to make a friend with someone, they can click a button
-and type in the username (currently we have no GUI to do this), and the client
-will send the server a "friend this user" message. The server will take this
-message and forward it to the user to be befriended.
+The server program will listen for commands like "make a user", "friend this
+user", etc. These commands are sent by the client-side application. When a user
+downloads the app and makes a new profile, that will send the "make a user"
+command to the server, and the server will make a new user. For another example,
+if a user wants to make a friend with someone, they can click a button and type
+in the username (currently we have no GUI to do this), and the client will send
+the server a "friend this user" message. The server will take this message and
+forward it to the user to be befriended.
 
 ### Structure of server application
 
