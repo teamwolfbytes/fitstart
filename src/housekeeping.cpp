@@ -1,8 +1,8 @@
 #include <vector>
 #include <string>
-#include "housekeeping.h"
+#include "../housekeeping.h"
 
-// todo: deal with non-exsistent commands (i.e. user error) later
+// todo: deal with non-existent commands (i.e. user error) later
 fnptr resolve_subcmds(std::vector <std::string> arg_list, cmd_struct subcmds[])
 {
 	fnptr ret_f;
