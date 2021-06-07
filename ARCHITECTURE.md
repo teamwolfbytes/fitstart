@@ -9,13 +9,13 @@ fitstart
 |
 |-README.md
 |
-|-src
+|-src			<- location of source code
 | |
-| |-client
+| |-client		<- source for client
 | | |
 | | +-(various files)
 | |
-| +-server
+| +-server		<- source for server
 |   |
 |   +-(various files)
 |
