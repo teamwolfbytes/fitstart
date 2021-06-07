@@ -1,6 +1,6 @@
 CXX=g++
 
-SRCS=fitstart.cpp housekeeping.cpp exercise.cpp config/config.cpp
+SRCS=fitstart.cpp ../housekeeping.cpp exercise.cpp config/config.cpp
 OBJS=$(subst .cpp,.o,$(SRCS))
 
 all: fitstart

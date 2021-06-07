@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "config.h"
-#include "../housekeeping.h"
+#include "../../housekeeping.h"
 
 int change_cmd(std::vector <std::string> arg_list)
 {
