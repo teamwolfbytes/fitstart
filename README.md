@@ -3,8 +3,6 @@
 An app to start fitness, written in C++  
 Created for the Innovation Project in the FIRST® LEGO® League Challenge
 
-## Installation
-
 ## Definitions
 
 "FitStart" is the name of the overall project.  
