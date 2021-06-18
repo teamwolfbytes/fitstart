@@ -37,10 +37,6 @@ in the username (currently we have no GUI to do this), and the client will send
 the server a "friend this user" message. The server will take this message and
 forward it to the user to be befriended.
 
-### Structure of server application
-
-TBA
-
 ## Todo
 
 ### General
